@@ -1,0 +1,9 @@
+{
+  "name": "openviking-memory",
+  "version": "0.1.0",
+  "description": "Long-term memory for Factory Droid, backed by OpenViking: profile at session start, recall per prompt, transcript capture and commit, plus the OpenViking MCP tools and memory skills.",
+  "author": { "name": "zyaiire", "url": "https://github.com/zyaiire" },
+  "repository": "https://github.com/zyaiire/openviking-droid-memory",
+  "license": "Apache-2.0",
+  "keywords": ["memory", "openviking", "droid", "factory", "long-term-memory"]
+}

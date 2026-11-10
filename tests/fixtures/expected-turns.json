@@ -1,0 +1,113 @@
+{
+  "_comment": "Decoded turns per transcript fixture (DESIGN.md turn decoding rules 1-6, before sanitize/filter). Text blocks join with a newline.",
+  "branch-and-errors": [
+    {
+      "turn_id": "u1",
+      "role": "user",
+      "content": "List the files in the lab directory."
+    },
+    {
+      "turn_id": "a2",
+      "role": "assistant",
+      "content": "The directory has \nthree files."
+    },
+    {
+      "turn_id": "u2",
+      "role": "user",
+      "content": "Actually, just count them."
+    },
+    {
+      "turn_id": "a3",
+      "role": "assistant",
+      "content": "<system-reminder>internal</system-reminder>There are 3 files."
+    }
+  ],
+  "compaction": [
+    {
+      "turn_id": "be656d34-a327-43f8-9f31-58f7e01d43aa",
+      "role": "user",
+      "content": "Remember the code word is PELICAN. Reply OK."
+    },
+    {
+      "turn_id": "886502ad-aea5-4283-8884-000cf614d493",
+      "role": "assistant",
+      "content": "OK."
+    },
+    {
+      "turn_id": "8639fa0d-7ea0-4c3d-b12a-dff0883e7116",
+      "role": "user",
+      "content": "What is 2+3? Reply with just the number."
+    },
+    {
+      "turn_id": "a9920c1e-4891-4d7f-9cca-e414d679599d",
+      "role": "assistant",
+      "content": "5"
+    },
+    {
+      "turn_id": "8419634a-4adf-4ed8-8ca7-4ad9d32dc91c",
+      "role": "user",
+      "content": "What was the code word? Reply with just it."
+    },
+    {
+      "turn_id": "321e1c12-00ca-400d-b679-7a1315413d80",
+      "role": "assistant",
+      "content": "PELICAN"
+    }
+  ],
+  "fork": [
+    {
+      "turn_id": "9d345d95-676d-4227-8d6c-975b6b409ded",
+      "role": "user",
+      "content": "Reply with just the word: cherry"
+    },
+    {
+      "turn_id": "a601bd83-d192-46bf-914e-ae64f750f1c5",
+      "role": "assistant",
+      "content": "cherry"
+    }
+  ],
+  "interactive": [
+    {
+      "turn_id": "4f5df675-b06f-43e9-8dd5-71f959c50e8f",
+      "role": "user",
+      "content": "Remember the code word is PELICAN. Reply OK."
+    },
+    {
+      "turn_id": "3da86b63-d435-491d-a233-9bd34ae991f0",
+      "role": "assistant",
+      "content": "OK"
+    },
+    {
+      "turn_id": "c17e1665-b829-4127-99e0-92dbed7ab23a",
+      "role": "user",
+      "content": "What is 2+3? Reply with just the number."
+    },
+    {
+      "turn_id": "216a5533-5ed4-4874-a129-386f54f3e251",
+      "role": "assistant",
+      "content": "5"
+    }
+  ],
+  "resume": [
+    {
+      "turn_id": "210b1757-6dc4-4f65-9690-6eec8866950c",
+      "role": "user",
+      "content": "Read the file lab-settings.json and tell me how many hook events it defines. Answer in one short sentence."
+    },
+    {
+      "turn_id": "8463e07a-8639-4fc4-874a-4d7fd876e262",
+      "role": "assistant",
+      "content": "It defines 9 hook events: SessionStart, UserPromptSubmit, Stop, SubagentStop, PreCompact, SessionEnd, Notification, PreToolUse, and PostToolUse."
+    },
+    {
+      "turn_id": "1de10387-bae7-44f4-9741-58359cbe6152",
+      "role": "user",
+      "content": "Now reply with just the word: banana"
+    },
+    {
+      "turn_id": "b0f54335-e957-4805-9320-8c5401387f77",
+      "role": "assistant",
+      "content": "banana"
+    }
+  ]
+}

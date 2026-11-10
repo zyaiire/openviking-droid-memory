@@ -1,0 +1,74 @@
+{
+  "_comment": "Hook stdin shapes measured on Droid CLI 0.232.0; paths anonymized. PreCompact and SessionStart:resume are reconstructed from the documented field list and the compaction fixture ids.",
+  "PreCompact": {
+    "session_id": "494d39d8-a67b-4d97-87b8-3ceefba9bbf7",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/494d39d8-a67b-4d97-87b8-3ceefba9bbf7.jsonl",
+    "cwd": "/home/dev/lab",
+    "permission_mode": "auto-low",
+    "hook_event_name": "PreCompact",
+    "trigger": "manual",
+    "custom_instructions": "",
+    "message_count": 12,
+    "estimated_tokens": 9000,
+    "message_id": "9542cd2c-8d09-47d4-9eea-9576f3f4b7ae"
+  },
+  "PreToolUse": {
+    "session_id": "86ea8e31-7ff6-48d5-bcdf-85bec1a24b42",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/86ea8e31-7ff6-48d5-bcdf-85bec1a24b42.jsonl",
+    "cwd": "/home/dev/lab",
+    "permission_mode": "auto-low",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "ToolSearch",
+    "tool_input": {
+      "query": "select:Task"
+    }
+  },
+  "SessionEnd": {
+    "session_id": "d9a6c0bf-ffdb-491f-bef5-e3514e8516ff",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
+    "cwd": "/home/dev/lab",
+    "permission_mode": "off",
+    "hook_event_name": "SessionEnd",
+    "reason": "other",
+    "session_duration_ms": 161701.04028320312,
+    "message_count": 10
+  },
+  "SessionStart:resume": {
+    "session_id": "494d39d8-a67b-4d97-87b8-3ceefba9bbf7",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/494d39d8-a67b-4d97-87b8-3ceefba9bbf7.jsonl",
+    "cwd": "/home/dev/lab",
+    "permission_mode": "auto-low",
+    "hook_event_name": "SessionStart",
+    "source": "resume"
+  },
+  "SessionStart:startup": {
+    "session_id": "d9a6c0bf-ffdb-491f-bef5-e3514e8516ff",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
+    "cwd": "/home/dev/lab",
+    "permission_mode": "off",
+    "hook_event_name": "SessionStart",
+    "source": "startup",
+    "CLAUDE_ENV_FILE": "/home/dev/.factory/temp/env/droid-env-d9a6c0bf-ffdb-491f-bef5-e3514e8516ff-04c9e1a0-b706-4e02-8ddf-0b5e2139b131.sh"
+  },
+  "Stop": {
+    "session_id": "d9a6c0bf-ffdb-491f-bef5-e3514e8516ff",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
+    "cwd": "/home/dev/lab",
+    "permission_mode": "off",
+    "hook_event_name": "Stop",
+    "message_id": "3da86b63-d435-491d-a233-9bd34ae991f0",
+    "stop_hook_active": false,
+    "tool_execution_count": 0,
+    "elapsed_time": 0
+  },
+  "UserPromptSubmit": {
+    "session_id": "d9a6c0bf-ffdb-491f-bef5-e3514e8516ff",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
+    "cwd": "/home/dev/lab",
+    "permission_mode": "off",
+    "hook_event_name": "UserPromptSubmit",
+    "message_id": "4f5df675-b06f-43e9-8dd5-71f959c50e8f",
+    "prompt": "Remember the code word is PELICAN. Reply OK.",
+    "has_images": false
+  }
+}

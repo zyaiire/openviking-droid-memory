@@ -4,3 +4,10 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# private local agent workflow — do not publish
+.trellis/
+.agents/
+.openviking/
+.factory/
+.cursor/hooks.json

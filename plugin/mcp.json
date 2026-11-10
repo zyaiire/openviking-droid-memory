@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "openviking": {
+      "command": "node",
+      "args": [
+        "--input-type=module",
+        "-e",
+        "import { existsSync, readdirSync, readFileSync } from \"node:fs\";\nimport { homedir } from \"node:os\";\nimport { join } from \"node:path\";\nimport { pathToFileURL } from \"node:url\";\nconst dir = join(process.env.FACTORY_HOME_OVERRIDE || homedir(), \".factory\", \"plugins\", \"installed_plugins\");\nlet best = null;\nlet names = [];\ntry { names = readdirSync(dir); } catch {}\nfor (const name of names) {\n  try {\n    const record = JSON.parse(readFileSync(join(dir, name), \"utf8\"));\n    const root = record.entry?.installPath;\n    if (!String(record.pluginId || \"\").startsWith(\"openviking-memory@\") || !root) continue;\n    const server = join(root, \"servers\", \"mcp-proxy.mjs\");\n    if (!existsSync(server)) continue;\n    const at = Date.parse(record.entry.lastUpdated || record.entry.installedAt || \"\") || 0;\n    if (!best || at > best.at) best = { server, at };\n  } catch {}\n}\nif (!best) { process.stderr.write(\"openviking-memory: no installed plugin under \" + dir + \"\\n\"); process.exit(1); }\nprocess.argv[1] = best.server;\nawait import(pathToFileURL(best.server).href);"
+      ]
+    }
+  }
+}
