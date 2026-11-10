@@ -4,7 +4,7 @@
     {
       "turn_id": "u1",
       "role": "user",
-      "content": "List the files in the lab directory."
+      "content": "List the files in the project directory."
     },
     {
       "turn_id": "a2",
@@ -92,7 +92,7 @@
     {
       "turn_id": "210b1757-6dc4-4f65-9690-6eec8866950c",
       "role": "user",
-      "content": "Read the file lab-settings.json and tell me how many hook events it defines. Answer in one short sentence."
+      "content": "Read the file hooks-settings.json and tell me how many hook events it defines. Answer in one short sentence."
     },
     {
       "turn_id": "8463e07a-8639-4fc4-874a-4d7fd876e262",

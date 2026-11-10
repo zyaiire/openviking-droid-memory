@@ -24,7 +24,7 @@ function capture(turns, state, config = cfg, captured = Infinity) {
 test("payloads carry role, sanitized content and turn_id", () => {
   const { plan } = capture(turnsOf("branch-and-errors"), {});
   assert.deepEqual(plan.toSend.map(({ payload }) => payload), [
-    { role: "user", content: "List the files in the lab directory.", turn_id: "u1" },
+    { role: "user", content: "List the files in the project directory.", turn_id: "u1" },
     { role: "assistant", content: "The directory has\nthree files.", turn_id: "a2" },
     { role: "user", content: "Actually, just count them.", turn_id: "u2" },
     { role: "assistant", content: "There are 3 files.", turn_id: "a3" },

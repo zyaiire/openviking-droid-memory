@@ -2,7 +2,7 @@
 
 /**
  * SessionEnd hook for Droid: capture any turns not yet sent, then commit.
- * Every measured exit (`droid exec`, `/exit`, Ctrl-C) fires it.
+ * `droid exec`, `/exit` and Ctrl-C all fire it.
  */
 
 import { runCaptureHook } from "./lib/capture-entry.mjs";
