@@ -1,0 +1,12 @@
+{
+  "name": "openviking-droid-memory",
+  "owner": { "name": "zyaiire" },
+  "plugins": [
+    {
+      "name": "openviking-memory",
+      "source": "./plugin",
+      "description": "Long-term memory for Factory Droid, backed by OpenViking.",
+      "version": "0.1.0"
+    }
+  ]
+}
