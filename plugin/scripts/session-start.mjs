@@ -6,8 +6,9 @@
  * Injects the user's profile (profile.md plus annotated listings of
  * preferences/ and entities/) and, when `resumeArchiveInject` is on, the
  * OV session's latest archive overview on `resume`. Droid reports `resume` for
- * `-s`, `--fork` and after `/compress` alike, and compaction drops the earlier
- * injection from the model's context, so the profile goes out on every start.
+ * `-s`, `--fork` and `/compress` alike, so a fork (a new session with no
+ * profile yet) cannot be told from the others and the profile goes out on
+ * every start.
  *
  * Also replays writes parked by earlier hooks while the server was down.
  */

@@ -1,21 +1,20 @@
 {
-  "_comment": "Hook stdin shapes measured on Droid CLI 0.232.0; paths anonymized. PreCompact and SessionStart:resume are reconstructed from the documented field list and the compaction fixture ids.",
+  "_comment": "Hook stdin as Droid CLI 0.232.0 sent it; paths anonymized.",
   "PreCompact": {
-    "session_id": "494d39d8-a67b-4d97-87b8-3ceefba9bbf7",
-    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/494d39d8-a67b-4d97-87b8-3ceefba9bbf7.jsonl",
-    "cwd": "/home/dev/lab",
-    "permission_mode": "auto-low",
+    "session_id": "d270f413-4400-479e-9e69-704eae7a79cf",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-project/d270f413-4400-479e-9e69-704eae7a79cf.jsonl",
+    "cwd": "/home/dev/project",
+    "permission_mode": "off",
     "hook_event_name": "PreCompact",
     "trigger": "manual",
-    "custom_instructions": "",
-    "message_count": 12,
-    "estimated_tokens": 9000,
-    "message_id": "9542cd2c-8d09-47d4-9eea-9576f3f4b7ae"
+    "message_count": 6,
+    "estimated_tokens": 86,
+    "message_id": "2d71639d-faf0-49f1-9299-8d8192f9b841"
   },
   "PreToolUse": {
     "session_id": "86ea8e31-7ff6-48d5-bcdf-85bec1a24b42",
-    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/86ea8e31-7ff6-48d5-bcdf-85bec1a24b42.jsonl",
-    "cwd": "/home/dev/lab",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-project/86ea8e31-7ff6-48d5-bcdf-85bec1a24b42.jsonl",
+    "cwd": "/home/dev/project",
     "permission_mode": "auto-low",
     "hook_event_name": "PreToolUse",
     "tool_name": "ToolSearch",
@@ -25,8 +24,8 @@
   },
   "SessionEnd": {
     "session_id": "d9a6c0bf-ffdb-491f-bef5-e3514e8516ff",
-    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
-    "cwd": "/home/dev/lab",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-project/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
+    "cwd": "/home/dev/project",
     "permission_mode": "off",
     "hook_event_name": "SessionEnd",
     "reason": "other",
@@ -34,17 +33,19 @@
     "message_count": 10
   },
   "SessionStart:resume": {
-    "session_id": "494d39d8-a67b-4d97-87b8-3ceefba9bbf7",
-    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/494d39d8-a67b-4d97-87b8-3ceefba9bbf7.jsonl",
-    "cwd": "/home/dev/lab",
-    "permission_mode": "auto-low",
+    "session_id": "d270f413-4400-479e-9e69-704eae7a79cf",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-project/d270f413-4400-479e-9e69-704eae7a79cf.jsonl",
+    "cwd": "/home/dev/project",
+    "permission_mode": "off",
     "hook_event_name": "SessionStart",
-    "source": "resume"
+    "message_id": "931d992c-0943-4124-ac48-a551724a76d1",
+    "source": "resume",
+    "CLAUDE_ENV_FILE": "/home/dev/.factory/temp/env/droid-env-d270f413-4400-479e-9e69-704eae7a79cf-84c72fef-2edc-4543-aec8-1f9f212b0265.sh"
   },
   "SessionStart:startup": {
     "session_id": "d9a6c0bf-ffdb-491f-bef5-e3514e8516ff",
-    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
-    "cwd": "/home/dev/lab",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-project/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
+    "cwd": "/home/dev/project",
     "permission_mode": "off",
     "hook_event_name": "SessionStart",
     "source": "startup",
@@ -52,8 +53,8 @@
   },
   "Stop": {
     "session_id": "d9a6c0bf-ffdb-491f-bef5-e3514e8516ff",
-    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
-    "cwd": "/home/dev/lab",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-project/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
+    "cwd": "/home/dev/project",
     "permission_mode": "off",
     "hook_event_name": "Stop",
     "message_id": "3da86b63-d435-491d-a233-9bd34ae991f0",
@@ -63,8 +64,8 @@
   },
   "UserPromptSubmit": {
     "session_id": "d9a6c0bf-ffdb-491f-bef5-e3514e8516ff",
-    "transcript_path": "/home/dev/.factory/sessions/-home-dev-lab/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
-    "cwd": "/home/dev/lab",
+    "transcript_path": "/home/dev/.factory/sessions/-home-dev-project/d9a6c0bf-ffdb-491f-bef5-e3514e8516ff.jsonl",
+    "cwd": "/home/dev/project",
     "permission_mode": "off",
     "hook_event_name": "UserPromptSubmit",
     "message_id": "4f5df675-b06f-43e9-8dd5-71f959c50e8f",
